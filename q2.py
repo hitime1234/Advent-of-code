@@ -14,7 +14,6 @@ def CheckValidGame(string:str):
                 green = int(color.replace("green","").replace(" ",""))
         if (red >12 or blue >14 or green >13):
             return 0
-
     return id
 
 
